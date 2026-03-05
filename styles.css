@@ -1,0 +1,89 @@
+/* cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* cabezera */
+.header-top {
+    background: #004481;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.header-main {
+    background: #f2f2f2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+/*logo*/
+.header-main .logo {
+    font-size: 50px;
+	
+}
+.logo {
+    height: 200px;   
+    width: auto;    
+    object-fit: contain;
+	margin:center;
+	
+}
+
+
+.header-main .nav a {
+    color: #2E2D2D;
+    margin: 0 40px;
+    text-decoration: none;
+	margin-right:80px;
+	padding:0px;
+	
+}
+.header-main .nav a:hover {
+    color: #0983B5;
+   
+    }
+
+.hero {
+    background: #e6f2ff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background: #004481;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* tarjetas */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+}
+
+/* pie de pagina */
+.footer {
+    background: #004481;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
